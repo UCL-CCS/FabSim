@@ -1,6 +1,8 @@
 FabSim
 ======
 
+## NOTICE: this tool has been superseded by FabSim3, which is available at http://fabsim3.readthedocs.io (repository at http://www.github.com/djgroen/FabSim3)
+
 FabSim is a Python-based automation toolkit for scientific simulation and data processing workflows, licensed under the BSD 3-clause license. It aims to enable users to perform remote tasks from a local command-line, and to run applications while curating the environment variables and the input and output data in a systematic manner. To provide that curation, FabSim uses a basic data transfer functionalities such as rsync and ssh. 
 
 FabSim also contains a system for defining machine-specific configurations, including templates to execute jobs through schedulers such as PBSPro, Loadleveller and SGE. These machine-specific configurations are stored in the repository, apply to all applications run on that machine, and can be updated by any contributor who feels that a fix or improvement is required.
